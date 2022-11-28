@@ -1,0 +1,5 @@
+The labels are connected to the radios using "for", so when we click on a label the corresponding
+radio gets checked, and then in the css, if the radion with a color ID is checked then we override
+the global color scheme variables.
+
+For the user's prefrence, we use "prefers-color-scheme" and define the default for dark and light modes
